@@ -1,0 +1,25 @@
+{
+  "title": "CONTAR HASTA LA VERSION 6 DE JAVASCRIPT",
+  "subtitle": "\u001b[23mElige un ejercicio y presiona \u001b[3mEnter\u001b[23m para empezar",
+  "common": {
+    "exercise": {
+      "fail": {
+        "singleFunction": "{{{name}}}({{{args}}}) debe ser igual a {{{expected}}}; En vez de eso, es igual a {{{actual}}}"
+      },
+      "pass": {
+        "singleFunction": "{{{name}}}({{{args}}}) dene ser igual a {{{expected}}}"
+      }
+    }
+  },
+  "exercise": {
+    "HELLO ES6": "HOLA ES6",
+    "TEMPLATE STRINGS": "TEMPLATE STRINGS",
+    "ARROW FUNCTIONS, Part 1": "FUNCIONES FLECHA, Parte 1",
+    "ARROW FUNCTIONS AND THIS": "FUNCIONES FLECHA Y THIS",
+    "SPREAD": "DESCOMPOSICIÓN",
+    "REST": "REST",
+    "DEFAULT ARGUMENTS, Part 1": "ARGUMENTOS POR DEFECTO, Parte 1",
+    "DEFAULT ARGUMENTS, Part 2": "ARGUMENTOS POR DEFECTO, Parte 2",
+    "TAGGED TEMPLATE STRINGS": "TEMPLATE STRINGS TAGGEADOS"
+  }
+}

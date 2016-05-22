@@ -1,0 +1,19 @@
+{yellow}{bold}Tienes problemas con algun ejercicio de {appname}?{/bold}{/yellow}
+
+  Un equipo de duendes ayudantes expertos está esperando ansiosamente para ayudarte
+  a convertirte en un experto en los conceptos basicos de ES6. Simplemente ingresa a:
+    https://github.com/nodeschool/discussions/issues
+  y agrega un {bold}Nuevo Issue{/bold} y haznos saber con que estás teniendo problemas.
+  No existen las preguntas {italic}tontas{/italic}!
+
+  Si estás buscando ayuda en temas generales sobre ES6, nosotros siempre te alentamos
+  a usar StackOverflow, consultar el repositorio es6features:
+    https://github.com/lukehoban/es6features
+  o incluso el propio borrador de la especificación:
+    http://people.mozilla.org/~jorendorff/es6-draft.html
+
+{yellow}{bold}Encontraste un bug {appname} o solo quieres contribuir?{/bold}{/yellow}
+
+  El repositorio oficial de {appname} es:
+    https://github.com/domenic/count-to-6/
+  Siéntete libre de informar sobre un bug o (preferentemente) hacer un pull request.
