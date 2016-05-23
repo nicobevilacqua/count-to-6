@@ -1,4 +1,4 @@
-Simplemente asegurate que todo esta funcionando, escribe un archivo `program.js`
-que imprime el text `"HOLA ES6"` en la consola.
+Simplemente asegurate que todo esté funcionando, escribe un archivo `program.js`
+que imprima el texto `"HOLA ES6"` en la consola.
 
-No te saltees las instrucciones de debajo!
+Presta atenciòn a las instrucciones de abajo!

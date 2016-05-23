@@ -1,4 +1,4 @@
-Las funciones flecha ayudan a hacer el confuso tema de `this` menos confunso.
+Las funciones flecha ayudan a hacer el uso confuso de `this` menos confunso.
 
 Las funciones flecha bindean léxicamente el valor de `this`.  Es muy probable que tú no sepas que quiere decir esto. Y eso está bien.
 
@@ -17,7 +17,7 @@ var foot = {
 foot.kick();
 ```
 
-Cuando ocurre la llamada a `console.log()`, un programador JavaScript novato esperaria que `this.yelp` contenga `"Ouch!"`. En cambio, este será `undefined`, porque la función que pasamos a `setImmediate` posee su propio `this` (que por defecto es el objeto global, que no posee una propiedad `yelp`). En ES5, es posible evitar esto usando hacks como:
+Cuando ocurre la llamada a `console.log()`, un programador JavaScript novato esperaria que `this.yelp` contenga `"Ouch!"`. Pero, en realidad, será `undefined`, porque la función que pasamos a `setImmediate` posee su propio `this` (que por defecto es el objeto global, que no posee una propiedad `yelp`). En ES5, es posible evitar esto usando hacks como:
 
 ```js
 setImmediate(function () {
@@ -34,11 +34,11 @@ setImmediate(function () {
 });
 ```
 
-En cambio, en ES6, las funciones flecha nos libran de cosas asi y nos permiten concentrarnos en decir lo que queremos decir. Si usamos una función flecha para el callback de `setImmediate`, nuestro código funcionará como esperábamos.
+En cambio, en ES6, las funciones flecha nos libran de cosas así y nos permiten concentrarnos en decir lo que queremos decir. Si usamos una función flecha para el callback de `setImmediate`, nuestro código funcionará como esperábamos.
 
 ## Reto
 
-Hagamos exactamente esto. Empezemos con el código original del ejemplo anterior, reemplaza la funcion anónima dada a `setImmediate` con una función flecha.
+Hagamos exactamente esto. Empecemos con el código original del ejemplo anterior, reemplaza la función anónima dada a `setImmediate` con una función flecha.
 
 ## Consejo
 

@@ -1,6 +1,6 @@
-Ahora que conoces como utilizar el operador spread, podemos presentarte a su contraparte, **parámetros rest**.
+Ahora que conoces como utilizar el operador de descomposición, podemos presentarte a su contraparte, **parámetros rest**.
 
-Los parámetros rest son usados cuando tu escribes una función que acepta un número variable de argumentos, pero agrupándolos dentro de un array. Por ejemplo:
+Los parámetros rest son usados cuando escribes una función que acepta un número variable de argumentos, pero agrupándolos dentro de un array. Por ejemplo:
 
 ```js
 function sum(...args) {
@@ -15,7 +15,7 @@ function sum(...args) {
 sum(1, 2, 3); // 6
 ```
 
-Nota que en el ejemplo anterior, `args` es un array real, con un método `forEach` y todo. Tal como el operador spread nos ayuda a deshacernos de `.apply`, los parámetros rest nos ayudan a deshacernos de `Array.prototype.slice.call(arguments)`. De hecho, nunca más deberás usar el horrible objeto `arguments`. Yayyyy!
+Nota que en el ejemplo anterior, `args` es un array real, con un método `forEach`. Tal como el operador descomposición nos ayuda a deshacernos de `.apply`, los parámetros rest nos ayudan a deshacernos de `Array.prototype.slice.call(arguments)`. De hecho, nunca más deberás usar el horrible objeto `arguments`. Yayyyy!
 
 ## Reto
 
